@@ -1,0 +1,507 @@
+*{
+font-family: 'Quicksand', sans-serif;
+font-size: 14px;
+margin: 0;
+padding: 0;
+
+}
+/* Para dispositivos móviles con una resolución de hasta 576px /
+
+/ Agrega tus estilos aquí */
+@media (max-width: 576px) {
+footer {
+  height: 18vh;}
+
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; 
+  height: 18vh;
+  width: 100%;
+  padding: 0px 0px;
+  background-color: rgba(43, 151, 228, 0.7);
+}
+
+.home_menu{
+  color: black;
+}
+
+.navbar{
+  color: white;
+}
+
+.footext {
+  font-size: 1.3rem;
+  font-weight: bolder;
+  color: white;
+}
+
+
+} 
+
+section {    
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70%;
+  margin-top: 100px;
+}
+
+    .sectionImg {
+      margin: auto auto;
+      height: 480x;
+      width: 90%;
+      display: flex;
+      justify-content: space-around;
+      opacity: 0.6;
+      transition: 2s;
+      -webkit-transition: 2s;
+      -moz-transition: 2s;
+      -ms-transition: 2s;
+      -o-transition: 2s;
+      
+    }
+    
+    .sectionImg img{
+      display: flex;
+      flex-wrap: wrap;
+      width: 70%;
+      height: 480px;
+      
+    }
+
+    .sectionImagen{
+      display: flex;
+      flex-wrap: wrap;
+      width: 70%;
+      height: 280px;
+      margin: 5px;
+      
+    }
+
+    .secText {
+      margin: 8px;
+      padding: 8px;
+      display: flex;
+      flex-wrap: wrap;
+      margin: auto ;
+      font-size: 1.8rem;
+      font-weight: bolder;
+      color: black;
+    }
+
+    .secText > p {
+      margin: 8px;
+      padding: 8px;
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 3em;
+      font-weight: bold;
+      color: black;
+    }
+
+    .servicios {
+      margin-bottom: 25px;
+      display: flex;
+    
+    }
+
+
+/* Para tabletas con una resolución de 768px / */
+@media (min-width: 768px), (max-width: 1114px) {
+
+
+  .navToggler {
+    justify-content: flex-end;
+    
+
+
+}
+
+
+
+}
+
+/* Para laptops con una resolución de 992px */
+
+/* Para monitores de escritorio con una resolución de 1800px o más */
+@media (min-width: 1115px) {
+  /* Agrega tus estilos aquí */
+  .navbar {
+    height: 15vh;
+    text-align: center;
+    }
+    
+        .leContainer{
+            display: grid;
+            grid-template-columns: repeat(12,1fr);
+            grid-template-rows: repeat(5,1fr);
+        }
+
+        .logo_container{
+          grid-column-start: 1;
+          grid-column-end: 4;
+          grid-row-start: 2;
+          grid-row-end: 3;
+        }
+      
+        .options {
+          position: relative;
+        }
+      
+        .submenu {
+          display: none;
+        }
+
+        .home_menu{
+          color: white;
+        }
+      
+        .contactbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgba(21, 99, 155, 1);
+            height: 40px;
+            width: 100%;
+            padding: 0px 0px;
+          background-color: rgba(21, 99, 155, 1);
+        }
+      
+        .contactIco {
+          height: 24px;
+          width: 24px;
+          margin-right: 10px;
+        }
+      
+    
+    
+        .contactIco
+      
+        .mainLogo {
+          margin-left: 6px;
+          border-radius: 13px;
+          -webkit-border-radius: 13px;
+          -moz-border-radius: 13px;
+          -ms-border-radius: 13px;
+          -o-border-radius: 13px;
+        }
+      
+        .logo_container {
+          height: 100px; /* ajusta el alto según sea necesario */
+        }
+      
+        .mainLogo {
+          margin-right: 10px; /* agrega un margen entre la imagen y el texto */
+        }
+      
+        .mainLogo:hover {
+          opacity: 0.7;
+        }
+      
+        .logoTitle {
+          font-size: 1.8rem; /* ajusta el tamaño de fuente según sea necesario */
+          margin: 0, auto; /* elimina el margen por defecto del párrafo */
+        }
+
+        .dropdown {
+          font-size: 1.10rem; /* ajusta el tamaño de fuente según sea necesario */
+          margin: 0, auto;
+          /* elimina el margen por defecto del párrafo */
+        }
+        .options {
+          font-size: 1.10rem; /* ajusta el tamaño de fuente según sea necesario */
+          margin: 0, auto; /* elimina el margen por defecto del párrafo */
+          color: white;
+        }
+        .contactus {
+          font-size: 1.10rem; /* ajusta el tamaño de fuente según sea necesario */
+          margin: 6px; /* elimina el margen por defecto del párrafo */
+          color: black;
+        }
+      
+        .navbar-brand {
+          font-size: 36px;
+          text-decoration: none;
+          text-align: left ;
+        }
+          
+        }
+      
+        .logo_container {
+          margin: 15px 0px;
+          padding: 5px auto;
+        }
+    
+        .logo_container img{
+            border-radius: 8px;
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            -ms-border-radius: 8px;
+            -o-border-radius: 8px;
+    }
+      
+        #titleUp {
+          margin-top: 10px;
+          padding: 0;
+          text-align: justify;
+        }
+      
+        ul {
+          list-style-type: none;
+          text-align: center;
+        }
+      
+        li {
+          display: inline-block;
+          margin: auto 45px;
+          padding: 8px auto;
+        }
+    
+        .dropdown-menu > li > a{
+            color: black;
+        }
+
+        .dropdown-menu > li > a:hover{
+          color: rgba(21, 99, 155, 0.1)
+      }
+      
+        .navbar-brand:hover {
+          color: rgba(21, 99, 155, 1)
+        }
+        
+      
+        
+        .home_menu {
+          display: flex;
+          flex-wrap: flex;
+        }
+      
+        a {
+          text-decoration: none;
+          color: white;
+        }
+      
+        .contactus {
+          
+          margin-bottom: 0;
+          color: white;
+        }
+      
+        .contactus:hover {
+          color: rgb(71, 199, 59);
+          
+        }
+    
+      .carousel {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 69vh;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        overflow: hidden;
+        
+      }
+    
+      .banner1 {
+        
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .banner2 {
+        
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .banner3 {
+      
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
+    
+      .bannerImg {
+      margin: auto auto;
+      height: 69vh;
+      width: 100%;
+      display: flex;
+      opacity: 0.6;
+      transition: 2s;
+      -webkit-transition: 2s;
+      -moz-transition: 2s;
+      -ms-transition: 2s;
+      -o-transition: 2s;
+      
+    }
+    
+    .bannerImg img{
+      width: 800px;
+      height: 470px;
+    }
+    
+
+    .carousel-control-prev {
+      color: #0179ff;
+    }
+      .bannerImg:hover {
+    
+      opacity: 0.8;
+    
+      }
+    
+    
+    .dropdown-toggle:hover{
+      color: #0179ff;
+    }
+    
+    .navigation-manual{
+      position: absolute;
+      width: 800px;
+      margin-top: -40px;
+      display: flex;
+      justify-content: center;
+      
+    }
+    
+    .manual-boton{
+      border: 2px solid rgba(43, 151, 228, 0.7);
+      padding: 5px;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+      cursor: pointer;
+      transition: 1s;
+    }
+
+    .navbar-toggler,.my-custom-toggler {
+      color: black;
+      background-color: black;
+      border: none;
+      background-color: rgba(43, 151, 228, 0.3);
+    }
+    
+    .navbar-toggler.my-custom-toggler::before,
+    .navbar-toggler.my-custom-toggler::after {
+      background-color: #f00; /* Cambia el color de las líneas */
+    }
+
+    
+    
+      /* Footer para dispositivos*/
+    
+      footer{
+        /*   display: grid;
+        grid-template-columns: repeat(12,1fr) ;
+        grid-template-rows: repeat(6,30px);
+    */    height: 20vh;
+        width: 100%;
+        padding: 0px 0px;
+        background-color: rgba(43, 151, 228, 0.7);
+        margin: 20px 0px;
+      
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center; /* Optional: centers content vertically */
+        }
+  
+
+    .footext {
+      font-size: 1.3rem;
+      font-weight: bolder;
+      color: white;
+    }
+    
+
+    /*section slider products */
+
+section {    
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+    .sectionImg {
+      margin: auto auto;
+      height: auto;
+      width: 90%;
+      display: flex;
+      
+      opacity: 0.6;
+      transition: 2s;
+      -webkit-transition: 2s;
+      -moz-transition: 2s;
+      -ms-transition: 2s;
+      -o-transition: 2s;
+      
+    }
+    
+    .sectionImg img{
+      display: flex;
+      flex-wrap: wrap;
+      width: 50%;
+      height: 480px;
+      
+    }
+
+    .sectionImagen{
+      display: flex;
+      flex-wrap: wrap;
+      width: 70%;
+      height: 360px;
+      
+    }
+
+    .secText {
+      margin: 8px;
+      padding: 8px;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      margin: auto 0;
+      font-size: 2.8rem;
+      font-weight: bolder;
+      color: black;
+    }
+
+    .secText > p {
+      margin: 8px;
+      padding: 8px;
+      width: 75%;
+      display: flex;
+      flex-wrap: wrap;
+      margin: auto 0;
+      font-size: 1.7rem;
+      font-weight: bolder;
+      color: black;
+    }
+
+    .servicios {
+      margin-bottom: 15px;
+    }
+
+    
+  
+  /* Para dispositivos móviles en modo paisaje con una resolución de hasta 768px */
+  @media (max-width: 768px) and (orientation: landscape) {
+
+    /* Agrega tus estilos aquí */
+  }
+  
+  /* Para dispositivos con una resolución de alta densidad (como los
+  
