@@ -9,6 +9,26 @@ padding: 0;
 
 / Agrega tus estilos aquí */
 @media (max-width: 576px) {
+
+.contact_usB {
+  color: white;
+  background-color: royalblue;
+}
+.navToggler {
+    justify-content: flex-end;
+    
+}
+
+.navItem, .dropdown{
+  width: 75%;
+  margin-bottom: 5%;
+}
+.dropdown-item{
+  width: 75%;
+}
+
+
+
 footer {
   height: 18vh;}
 
@@ -37,77 +57,7 @@ footer{
   color: white;
 }
 
-
-} 
-
-section {    
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 70%;
-  margin-top: 100px;
 }
-
-    .sectionImg {
-      margin: auto auto;
-      height: 480x;
-      width: 90%;
-      display: flex;
-      justify-content: space-around;
-      opacity: 0.6;
-      transition: 2s;
-      -webkit-transition: 2s;
-      -moz-transition: 2s;
-      -ms-transition: 2s;
-      -o-transition: 2s;
-      
-    }
-    
-    .sectionImg img{
-      display: flex;
-      flex-wrap: wrap;
-      width: 70%;
-      height: 480px;
-      
-    }
-
-    .sectionImagen{
-      display: flex;
-      flex-wrap: wrap;
-      width: 70%;
-      height: 280px;
-      margin: 5px;
-      
-    }
-
-    .secText {
-      margin: 8px;
-      padding: 8px;
-      display: flex;
-      flex-wrap: wrap;
-      margin: auto ;
-      font-size: 1.8rem;
-      font-weight: bolder;
-      color: black;
-    }
-
-    .secText > p {
-      margin: 8px;
-      padding: 8px;
-      display: flex;
-      flex-wrap: wrap;
-      font-size: 3em;
-      font-weight: bold;
-      color: black;
-    }
-
-    .servicios {
-      margin-bottom: 25px;
-      display: flex;
-    
-    }
-
-
 /* Para tabletas con una resolución de 768px / */
 @media (min-width: 768px), (max-width: 1114px) {
 
