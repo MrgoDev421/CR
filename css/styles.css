@@ -10,21 +10,31 @@ padding: 0;
 / Agrega tus estilos aquí */
 @media (max-width: 576px) {
 
-.contact_usB {
+* {
   color: white;
-  background-color: royalblue;
+  
 }
 .navToggler {
     justify-content: flex-end;
     
 }
 
-.navItem, .dropdown{
+.navItem, .dropdown,.contactus{
   width: 75%;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
 }
 .dropdown-item{
   width: 75%;
+}
+
+.dropdown-item, li {
+  width: 75%;
+  margin: 0, auto;
+}
+
+a:hover {
+  background-color: whitesmoke;
+  height: 100;
 }
 
 
@@ -43,12 +53,31 @@ footer{
   background-color: rgba(43, 151, 228, 0.7);
 }
 
-.home_menu{
-  color: black;
+
+a {
+text-decoration: none;
+color: white;
+}
+
+.contactus {
+
+margin-bottom: 0;
+color: white;
+width: 100%;
+}
+
+.contactus:hover {
+color: rgb(71, 199, 59);
+width: 100%;
+
 }
 
 .navbar{
   color: white;
+}
+
+.nohover{
+  
 }
 
 .footext {
@@ -58,6 +87,9 @@ footer{
 }
 
 }
+
+
+
 /* Para tabletas con una resolución de 768px / */
 @media (min-width: 768px), (max-width: 1114px) {
 
@@ -213,10 +245,7 @@ footer{
             color: black;
         }
 
-        .dropdown-menu > li > a:hover{
-          color: rgba(21, 99, 155, 0.1)
-      }
-      
+       
         .navbar-brand:hover {
           color: rgba(21, 99, 155, 1)
         }
@@ -309,14 +338,9 @@ footer{
       .bannerImg:hover {
     
       opacity: 0.8;
-    
-      }
-    
-    
-    .dropdown-toggle:hover{
-      color: #0179ff;
-    }
-    
+      }    
+
+
     .navigation-manual{
       position: absolute;
       width: 800px;
@@ -380,24 +404,32 @@ footer{
 
     /*section slider products */
 
+.boxx {
+  margin-top: 50px;
+}
+
 section {    
   display: flex;
   flex-wrap: wrap;
-  width: 70%;
+  width: 80%;
 }
 
     .sectionImg {
       margin: auto auto;
       height: auto;
-      width: 90%;
+      width: 80%;
       display: flex;
-      
+      margin-top: 0.5em;
+      margin-bottom:5em;
+      margin-right: 0.5em;
+      margin-left: 0.5em;     
       opacity: 0.6;
       transition: 2s;
       -webkit-transition: 2s;
       -moz-transition: 2s;
       -ms-transition: 2s;
       -o-transition: 2s;
+      height: 560px;
       
     }
     
@@ -430,9 +462,9 @@ section {
     }
 
     .secText > p {
-      margin: 8px;
+      margin: auto 0;
       padding: 8px;
-      width: 75%;
+      width: 100%;
       display: flex;
       flex-wrap: wrap;
       margin: auto 0;
