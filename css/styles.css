@@ -139,6 +139,13 @@ section {
 /* Para monitores de escritorio con una resolución de 1800px o más */
 @media (min-width: 1115px) {
   /* Agrega tus estilos aquí */
+
+  body {
+    margin-top: 60px;
+    padding-top: 60px;
+    
+  }
+  
   
     
         .leContainer{
