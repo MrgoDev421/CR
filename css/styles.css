@@ -2,19 +2,7 @@
 /* Para dispositivos móviles con una resolución de hasta 576px /
 
 / Agrega tus estilos aquí */
-@media ( min-width: 318px),( max-width: 776px) {
-
-body {
-  margin-top: 60px;
-  padding-top: 60px;
-  
-}
-
-.header-nav {
-  margin-top: 50px;
-  background-color: black;
-}
-
+@media ( min-width: 200px),( max-width: 776px) {
 
   
 .navToggler {
@@ -39,41 +27,6 @@ a:hover {
   height: 100%;
 }
 
-
-
-footer {
-  height: 18vh;}
-
-footer{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center; 
-  height: 18vh;
-  width: 100%;
-  padding: 0px 0px;
-  background-color: rgba(43, 151, 228, 0.7);
-}
-
-
-a {
-text-decoration: none;
-color: white;
-}
-
-.contactus {
-
-margin-bottom: 0;
-color: white;
-width: 50%
-}
-
-.contactus:hover {
-color: rgb(71, 199, 59);
-width: 100%;
-
-}
-
 .navbar{
   color: white;
 }
@@ -87,35 +40,213 @@ section {
 
 
 .servicios{
-  width: 55%;
-  display: inline-block;
+  margin-top: 100px;
+  padding: auto;
+  width: 65%;
+  display: flex;
   
   
 }
 
-    
 
-    .sectionImagen{
-      display: inline-block;
-      
-    }
     .secText {
-      margin: 100px;
+      margin: auto;
       padding: 0px;
-      display: flex;
-      flex-wrap: wrap;
+      display:block;
+      flex-direction: column;
+      align-items: flex-start;
       font-weight: lighter;
       color: black;
     }
 
- 
+    .serviceRight{
+      width: 35%;
+      margin: 20px;
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      color: white;
+    }
+    
+    
+   
+       /*section slider products */
 
 
-.footext {
-  font-size: 1.3rem;
-  font-weight: bolder;
-  color: white;
+section {    
+  width: 100%;
+  display: grid;
+
 }
+
+
+
+    .sectionImg {
+      width: 100%;
+      display: flex; 
+      flex-wrap: nowrap;
+    }
+    
+
+    .sectionImagen{
+      flex-wrap: nowrap;
+      width: 480px;
+      height: 360px;
+      
+
+      
+      
+      
+    }
+    .secTitle {
+      width: 280px;
+      display: flex;
+      text-align: center;
+  
+      font-size: 1.3rem;
+      font-weight: bolder;
+      color: black;
+    }
+
+    
+
+    .secText {
+      
+      display: flex;
+      text-align: center;
+      flex-wrap: wrap;
+      font-size: 1.3rem;
+      font-weight: bolder;
+      color: black;
+    }
+
+    .secText > p {
+      margin: auto;
+      width: 360px;
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+      
+      font-size: 1.4rem;
+      font-weight: bolder;
+      color: black;
+      text-align:center;
+    }
+
+    .service1{
+      grid-template-columns: repeat(2fr);
+      grid-template-rows: repeat(3fr);
+     
+    }
+    
+    .service1Img {
+      grid-row-start: 1;
+      grid-row-end: 1;
+      grid-column-start: 1;
+      grid-column-end: 1;
+    }
+    
+    .service1Text {
+      grid-row-start: 1;
+      grid-row-end: 1;
+      grid-column-start: 2;
+      grid-column-end: 2;
+    }
+    
+    .service2{
+      grid-template-columns: repeat(2fr);
+      grid-template-rows: repeat(3fr);
+     
+    }
+    
+    .service2Img {
+      grid-row-start: 2;
+      grid-row-end: 2;
+      grid-column-start: 2;
+      grid-column-end: 2;
+    }
+    
+    .service2Text {
+      grid-row-start: 1;
+      grid-row-end: 1;
+      grid-column-start: 1;
+      grid-column-end: 1;
+    }
+
+    .service3{
+      grid-template-columns: repeat(2fr);
+      grid-template-rows: repeat(3fr);
+     
+    }
+    
+    .service3Img {
+      grid-row-start: 3;
+      grid-row-end: 3;
+      grid-column-start: 1;
+      grid-column-end: 1;
+    }
+    
+    .service3Text {
+      grid-row-start: 3;
+      grid-row-end: 3;
+      grid-column-start: 2;
+      grid-column-end: 2;
+    }
+
+    footer{
+      /*   display: grid;
+      grid-template-columns: repeat(12,1fr) ;
+      grid-template-rows: repeat(6,30px);
+  */  height: 30vh;
+      width: 100%;
+      padding: 0px 0px;
+      background-color: rgba(43, 151, 228, 0.7);
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center; /* Optional: centers content vertically */
+    }
+
+
+  .footext {
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: white;
+  }
+  footer {
+    height: 18vh;}
+  
+  footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; 
+    height: 18vh;
+    margin-top: auto;
+    width: 100%;
+  
+    background-color: rgba(43, 151, 228, 0.7);
+  }
+  
+  
+  a {
+  text-decoration: none;
+  color: white;
+  }
+  
+  .contactus {
+  
+  margin-bottom: 0;
+  color: white;
+  width: 50%
+  }
+  
+  .contactus:hover {
+  color: rgb(71, 199, 59);
+  width: 100%;
+  
+  }
 
 
 }
@@ -179,11 +310,7 @@ section {
           width: 24px;
           margin-right: 10px;
         }
-      
-    
-    
-        .contactIco
-      
+            
         .mainLogo {
           margin-left: 6px;
           border-radius: 13px;
@@ -370,32 +497,6 @@ section {
       background-color: #f00; /* Cambia el color de las líneas */
     }
 
-    
-    
-      /* Footer para dispositivos*/
-    
-      footer{
-        /*   display: grid;
-        grid-template-columns: repeat(12,1fr) ;
-        grid-template-rows: repeat(6,30px);
-    */  height: 30vh;
-        width: 100%;
-        padding: 0px 0px;
-        background-color: rgba(43, 151, 228, 0.7);
-        margin: 20px 0px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center; /* Optional: centers content vertically */
-      }
-  
-
-    .footext {
-      font-size: 1.3rem;
-      font-weight: bolder;
-      color: white;
-    }
-    
 
     /*section slider products */
 
@@ -407,13 +508,11 @@ section {
 }
 
     .sectionImg {
-      margin: auto auto;
-      height: auto;
-      width: 70%;
+      width: 65%;
       display: flex;
-          
-      opacity: 0.6;
-      transition: 2s;
+      position: relative;
+      opacity: 0.8;
+      transition: 5s;
       -webkit-transition: 2s;
       -moz-transition: 2s;
       -ms-transition: 2s;
@@ -422,27 +521,25 @@ section {
     }
     
     .sectionImg img{
-    
-      width: 100%;
+      margin-left: 40px;
+      width: 200;
       height: 580px;
-      background-size: cover;
+      object-fit: fill;
       
       
     }
 
     .sectionImagen{
-      display: inline-block;
+      display: inline-flex;
       flex-wrap: wrap;
       width: 100%;
       height: 360px;
       align-items: end;
-      margin: 5px;
       object-fit: fill;
       
       
     }
     .secTitle {
-
       width: 100%;
       display: flex;
       text-align: center;
@@ -450,16 +547,15 @@ section {
       font-size: 1.83rem;
       font-weight: bolder;
       color: black;
-      margin: 8px;
-      padding: 8px;
+      margin-right: 10px;
+      
     }
 
     
 
     .secText {
-      margin: 5px;
-      padding: 5px;
-      width: 100%;
+      margin: 0;
+      padding: 0;
       display: flex;
       text-align: center;
       flex-wrap: wrap;
@@ -481,6 +577,31 @@ section {
       color: black;
       text-align:center;
     }
+
+     /* Footer para dispositivos*/
+    
+     footer{
+      /*   display: grid;
+      grid-template-columns: repeat(12,1fr) ;
+      grid-template-rows: repeat(6,30px);
+  */  height: 30vh;
+      width: 100%;
+      padding: 0px 0px;
+      background-color: rgba(43, 151, 228, 0.7);
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center; /* Optional: centers content vertically */
+    }
+
+
+  .footext {
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: white;
+  }
+  
 
 
     
