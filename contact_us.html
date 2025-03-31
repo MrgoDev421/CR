@@ -10,15 +10,7 @@
     <link rel="icon" href="images/crlogo-white.png">
     <title>CR Refrigeración</title>
 </head>
-<body>
-    <!--
-    <div>
-    <section class="contactbar">
-        <p class="headerss"><img class="contactIco" alt="telefono" src="images/phone-solid-24.png"> +57 301-292-95-86</p>
-        <p class="headerss"><img class="contactIco" src="images/envelope-solid-24.png"> crrefrigeration@gmail.com</p>
-    </section>
-    </div>
-    -->
+<body>    
 <!--<div class="container-fluid navegationFluid"> -->
 
     <!-- Mobile Navbar-->
@@ -115,46 +107,46 @@
     </nav>
 
     <!--Main Content-->
-    <main class="container">
-        <h1>Contáctenos</h1>
-        <p>Para cualquier consulta o solicitud, por favor complete el siguiente formulario o comuníquese con nosotros a través de WhatsApp.</p>
+    <main class="container py-4">
+        <h1 class="text-center mb-4">Contáctenos</h1>
+        <p class="text-center">Para cualquier consulta o solicitud, complete el formulario o contáctenos por WhatsApp.</p>
     
-        <div class="row">
-          <div class="col-md-6">
-            <form id="contact-form">
-              <div class="mb-3">
-                <label for="name" class="form-label">Nombre:</label>
-                <input type="text" class="form-control" id="name" name="name" required>
-              </div>
-              <div class="mb-3">   
+        <div class="row justify-content-center">
+            <!-- Formulario de Contacto -->
+            <div class="col-lg-6 col-md-8">
+                <form id="contact-form">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nombre:</label>
+                        <input type="text" class="form-control" id="name" name="name" required placeholder="Ingrese su nombre">
+                    </div>
     
-                <label for="email" class="form-label">Correo Electrónico:</label>
-                <input type="email" class="form-control"   
-     id="email" name="email" required>
-              </div>
-              <div class="mb-3">
-                <label for="message"   
-     class="form-label">Mensaje:</label>
-                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>   
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Correo Electrónico:</label>
+                        <input type="email" class="form-control" id="email" name="email" required placeholder="Ingrese su correo">
+                    </div>
     
-              </div>
-              <button type="submit" class="btn btn-primary">Enviar</button>
-            </form>
-          </div>
-          <div class="col-md-6">   
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Mensaje:</label>
+                        <textarea class="form-control" id="message" name="message" rows="5" required placeholder="Escriba su mensaje"></textarea>
+                    </div>
     
-            <h2>Contáctanos por WhatsApp</h2>
-            <a href="https://wa.me/tu_numero_de_whatsapp?text=Hola,%20quiero%20hacer%20una%consulta" target="_blank" class="btn btn-success whatsapp-btn">
-              <i class="fab fa-whatsapp"></i> Chatea con nosotros
-            </a>
-            <p>¿Prefieres un chat en vivo? Haz clic en el botón y te conectaremos directamente con uno de nuestros agentes.</p>
-          </div>
+                    <button type="submit" class="btn btn-primary w-100">Enviar</button>
+                </form>
+            </div>
+    
+            <!-- Contacto por WhatsApp -->
+            <div class="col-lg-6 col-md-8 text-center mt-4">
+                <h2>Contáctanos por WhatsApp</h2>
+                <a href="https://wa.me/+573012929586?text=Hola, Quiero consultar acerca de los servicios de refrigeración" target="_blank" class="btn btn-success btn-block"  style="max-width: 240px; max-height: 35px ; display: inline-block;" !important>
+    <i class="fab fa-whatsapp me-2">
+        
+    </i> Chatea con nosotros
+</a>
+                <p class="mt-2">¿Prefieres un chat en vivo? Haz clic en el botón y te conectaremos directamente con uno de nuestros agentes.</p>
+            </div>
         </div>
-      </main>
+    </main>
     
-      <button onclick="openWhatsApp()" class="whatsapp-float">
-        <i class="fab fa-whatsapp"></i>
-      </button>
 
 
 
@@ -165,9 +157,8 @@
 
 
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-      <script src="/js/script.js"></script>
-      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
 
 </body>
 

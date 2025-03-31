@@ -27,9 +27,6 @@ a:hover {
   height: 100%;
 }
 
-.navbar{
-  color: white;
-}
 
 
 section {    
@@ -259,6 +256,7 @@ section {
     
 
 
+  
 }
 
 
@@ -271,13 +269,6 @@ section {
 @media (min-width: 1115px) {
   /* Agrega tus estilos aquí */
 
-  body {
-    margin-top: 60px;
-    padding-top: 60px;
-    
-  }
-  
-  
     
         .leContainer{
             display: grid;
